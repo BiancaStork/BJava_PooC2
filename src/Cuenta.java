@@ -53,7 +53,7 @@ public class Cuenta {
         this.dniCliente = scanner.nextLong();
         System.out.println("Ingrese el saldo actual:");
         this.saldoActual = scanner.nextDouble();
-          
+        scanner.close();
     }
 
   // Método ingresar(double ingreso)
