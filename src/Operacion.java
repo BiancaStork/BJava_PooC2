@@ -15,7 +15,7 @@ public class Operacion {
         this.numero1 = 0;
         this.numero2 = 0;
     }
-    //Métodos get y set
+    //Métodos getters y setters
     public double getNumero1() {
         return numero1;
     }
